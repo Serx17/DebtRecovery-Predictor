@@ -115,5 +115,4 @@ except Exception as e:
     - encoder.pkl (энкодер) 
     - synthetic_court_cases.csv (данные)
     """)
-
     st.write(f"Техническая информация: {str(e)}")
