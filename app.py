@@ -1,4 +1,6 @@
-# app.py
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')# app.py
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -113,4 +115,5 @@ except Exception as e:
     - encoder.pkl (энкодер) 
     - synthetic_court_cases.csv (данные)
     """)
+
     st.write(f"Техническая информация: {str(e)}")
