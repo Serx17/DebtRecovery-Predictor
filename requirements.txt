@@ -2,5 +2,3 @@ streamlit==1.28.0
 pandas==1.5.3
 numpy==1.24.3
 scikit-learn==1.2.2
-protobuf==3.20.3
-joblib  # требуется для pickle моделей
